@@ -1,0 +1,14 @@
+:root{--seekwp-primary:#bc2436;--seekwp-dark:#971b2b;--seekwp-soft:#fff0f2}
+#head .dh,#head #nav,#bar .bar_top{background-color:var(--seekwp-primary)!important;border-color:var(--seekwp-primary)!important}
+#head .dh{border-top-color:var(--seekwp-primary)!important;border-bottom-color:var(--seekwp-dark)!important}
+#nav li a.a2,#nav li a:hover{background-color:var(--seekwp-dark)!important;color:#fff!important}
+.button-primary,.reference-email-checkout .xhs-create,.mobile-product-buy,.sbtn,.search button,.fifth-table-buy{background:var(--seekwp-primary)!important;border-color:var(--seekwp-primary)!important;color:#fff!important}
+.button-primary:hover,.reference-email-checkout .xhs-create:hover,.mobile-product-buy:hover,.sbtn:hover,.search button:hover,.fifth-table-buy:hover{background:var(--seekwp-dark)!important}
+.reference-email-checkout .xhs-create:disabled{background:#c2c5ca!important;border-color:#c2c5ca!important}
+#bar table td a:hover,#bar table td a.mobile-category-active{background:var(--seekwp-soft)!important;color:var(--seekwp-primary)!important;border-color:#dba2ab!important}
+.mobile-bottom-nav a.active{color:var(--seekwp-primary)!important}
+.reference-email-checkout .purchase-networks .xhs-payment-method.is-selected{border-color:var(--seekwp-primary)!important;background:var(--seekwp-soft)!important}
+.reference-email-checkout .purchase-network-check{color:var(--seekwp-primary)!important}
+.reference-email-checkout .purchase-networks label:focus-within{outline-color:#dba2ab!important}
+.reference-email-checkout input:focus{outline-color:#dba2ab;border-color:var(--seekwp-primary)!important}
+.reference-email-checkout .xhs-create:focus-visible,.button-primary:focus-visible{outline:2px solid var(--seekwp-dark);outline-offset:3px}

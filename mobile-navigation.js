@@ -1,0 +1,1 @@
+(()=>{const media=matchMedia('(max-width:767px)');function update(){for(const a of document.querySelectorAll('#bar a[href],#kong .imagesqr>a[href]')){const u=new URL(a.href,location.href);if(u.origin===location.origin&&(/^\/category-\d+\.html$/.test(u.pathname)||u.pathname==='/')){u.hash=media.matches?'bd':'';a.href=u.href;}}}update();media.addEventListener('change',update);})();
